@@ -26,6 +26,9 @@ public class RecylcerViewAdapter extends RecyclerView.Adapter<RecylcerViewAdapte
 
     private List<String> listData;
     private Context context;
+    private final int flag1 = 0;
+    private final int flag2 = 1;
+
 
     public RecylcerViewAdapter(List<String> listData, Context context) {
         this.listData = listData;
@@ -35,8 +38,14 @@ public class RecylcerViewAdapter extends RecyclerView.Adapter<RecylcerViewAdapte
     //创建新View,被layoutmanager所调用
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(context).inflate(R.layout.listitems, parent, false);
-        return new ViewHolder(view);
+        if (viewType == flag1) {
+            View view = LayoutInflater.from(context).inflate(R.layout.listitems, parent, false);
+            return new ViewHolder(view);
+        } else if (viewType == flag2) {
+            View view = LayoutInflater.from(context).inflate(R.layout.listitems2, parent, false);
+            return new ViewHolder(view);
+        }
+        return  null;
     }
 
     //将数据与界面进行绑定的操作
@@ -68,6 +77,7 @@ public class RecylcerViewAdapter extends RecyclerView.Adapter<RecylcerViewAdapte
         public final TextView mTextView;
         public final ImageView mImageView;
         public LinearLayout mLlayout;
+
         public ViewHolder(View itemView) {
             super(itemView);
             mLlayout = (LinearLayout) itemView.findViewById(R.id.llayout);

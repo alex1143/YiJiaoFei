@@ -4,10 +4,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/my_recycler_view"
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scrollbars="vertical" />
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+       android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:textColor="#000000"
+        android:text="显示时间"/>
+
+    <include layout="@layout/listitems"/>
 
 </LinearLayout>

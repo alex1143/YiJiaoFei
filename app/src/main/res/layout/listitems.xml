@@ -17,7 +17,7 @@
             android:id="@+id/tv_title"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="0.7"
             android:padding="16dp"
             android:gravity="left|center_horizontal"
             android:textSize="18sp"
@@ -27,7 +27,7 @@
         <ImageView
             android:id="@+id/iv_title"
             android:layout_width="0dp"
-            android:layout_weight="1"
+            android:layout_weight="0.3"
             android:layout_height="wrap_content"
             android:gravity="right|center_horizontal"/>
 
