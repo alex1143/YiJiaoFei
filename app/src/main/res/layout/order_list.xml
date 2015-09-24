@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/software_textColor_unselected">
+    <TextView
+        android:id="@+id/phoneNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="充值账号"
+        android:padding="20dp"/>
+    <TextView
+        android:id="@+id/orderstate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="订单状态"
+        android:padding="20dp"/>
+    <TextView
+        android:id="@+id/money"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="right"
+        android:text="充值金额"
+        android:layout_weight="1"
+        android:padding="20dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--Android Design-->
+    <dimen name="android_design_standard_interval">8dp</dimen>
+    <dimen name="android_design_standard_item_measure">48dp</dimen>
+    <dimen name="android_design_standard_icon_measure">32dp</dimen>
+    <dimen name="android_design_standard_item_measure_half">24dp</dimen>
+
+    <!--TextSize -->
+    <dimen name="textsize_summary">10sp</dimen>
+    <dimen name="textsize_micro">12sp</dimen>
+    <dimen name="textsize_small">14sp</dimen>
+    <dimen name="textsize_medium">18sp</dimen>
+    <dimen name="textsize_large">22sp</dimen>
+
+    <!--slidingmenu config-->
+    <dimen name="shadow_width">15.0dip</dimen>
+    <dimen name="slidingmenu_offset">50.0dip</dimen>
+
+    <!--left drawer-->
+    <dimen name="left_drawer_avatar_size">48.0dip</dimen>
+
+
+    <!--cunstom title bar by wk-->
+    <dimen name="title_bar_height">44.0dip</dimen>
+    <dimen name="head_size">58.0dip</dimen>
+
+
+    <!--listview-->
+    <dimen name="right_image_width">86.0dip</dimen>
+    <dimen name="right_image_height">60.0dip</dimen>
+    <dimen name="list_item_horizontal_padding">15.0dip</dimen>
+    <dimen name="alt_mark_size">15.0dip</dimen>
+
+
+    <!--News detail view-->
+    <dimen name="item_image_width">86.0dip</dimen>
+    <dimen name="item_image_height">60.0dip</dimen>
+
+    <dimen name="three_grid_unit">24dp</dimen>
+    <dimen name="one_and_a_half_grid_unit">12dp</dimen>
+</resources>
+
